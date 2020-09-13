@@ -1,0 +1,130 @@
+body {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #fff;
+}
+html,
+body {
+  width: 100%;
+  background-color: #000000;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.content {
+  width: 650px;
+  background-color: #000000;
+  padding: 30px 50px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-10p {
+  margin-top: 10%;
+}
+.word-green {
+  color: #73aa24;
+}
+.word-brown {
+  color: #bb9167;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .top {
+  display: flex;
+  align-items: flex-end;
+}
+.biggerWord {
+  font-size: 100px;
+  /* letter-spacing: 15px; */
+}
+.smallWord {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.subheading {
+  font-size: 24px;
+}
+.rightLogo {
+  width: 150px;
+}
+.rightLogo img {
+  width: 100%;
+}
+
+.wordItem {
+  margin-bottom: 20px;
+}
+.wordItem p {
+  margin: 0;
+}
+.loadingBar {
+  display: flex;
+}
+.loadingLabel {
+  width: 100px;
+}
+#progress {
+  flex: 1;
+}
+.stepItem .stepTitle {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.stepNumber {
+  padding-right: 50px;
+}
+.inner {
+  display: flex;
+}
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentLeft {
+  padding-right: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer .footerItem a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: georgia;
+}
+
+@media screen and (max-width: 768px) {
+  .header .biggerWord {
+    font-size: 30px;
+  }
+  .header .smallWord {
+    padding-bottom: 0;
+  }
+  .header .rightLogo {
+    width: 30px;
+  }
+}
